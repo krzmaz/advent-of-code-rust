@@ -1,4 +1,4 @@
-use std::{collections::BinaryHeap, cmp::Reverse};
+use std::{cmp::Reverse, collections::BinaryHeap};
 
 pub fn part_one(input: &str) -> Option<u32> {
     let mut max_sum: u32 = 0;
